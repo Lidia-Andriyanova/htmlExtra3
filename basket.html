@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box-content">
+
+    <header class="header center">
+        <div class="header_left">
+            <a href="index.html"><img src="img/logo.svg" alt="logo"></a>
+            <a href="#"><img src="img/search.svg" alt="search"></a>
+        </div>
+        <nav class="header_right">
+
+            <label for="burger"> <img src="img/menu.svg" alt="menu"></label>
+            <input id="burger" type="checkbox">
+
+            <nav class="nav">
+
+                <h3 class="mobile-menu__heading">MENU</h3>
+                <div class="mobile-menu__box">
+                    <div class="mobile-menu__item">
+                        <a href="catalog.html" class="mobile-menu__title">MAN</a>
+                        <ul class="mobile-menu__list">
+                            <li><a class="mobile-menu__link" href="#">Accessories</a></li>
+                            <li><a class="mobile-menu__link" href="#">Bags</a></li>
+                            <li><a class="mobile-menu__link" href="#">Denim</a></li>
+                            <li><a class="mobile-menu__link" href="#">T-Shirts</a></li>
+                        </ul>
+                    </div>
+                    <div class="mobile-menu__item">
+                        <a href="catalog.html" class="mobile-menu__title">WOMAN</a>
+                        <ul class="mobile-menu__list">
+                            <li><a class="mobile-menu__link" href="">Accessories</a></li>
+                            <li><a class="mobile-menu__link" href="">Bags</a></li>
+                            <li><a class="mobile-menu__link" href="">Denim</a></li>
+                            <li><a class="mobile-menu__link" href="">T-Shirts</a></li>
+                        </ul>
+                    </div>
+                    <div class="mobile-menu__item">
+                        <a href="catalog.html" class="mobile-menu__title">KIDS</a>
+                        <ul class="mobile-menu__list">
+                            <li><a class="mobile-menu__link" href="">Accessories</a></li>
+                            <li><a class="mobile-menu__link" href="">Bags</a></li>
+                            <li><a class="mobile-menu__link" href="">Denim</a></li>
+                            <li><a class="mobile-menu__link" href="">T-Shirts</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <a class="header_registration" href="registration.html"><img src="img/reg.svg" alt="reg"></a>
+            <a class="header_cart" href="cart.html"><img src="img/cart.svg" alt="cart"></a>
+        </nav>
+        
+    </header>
+
+    <section class="arrivals center">
+        <h2 class="arrivals_title">SHOPPING CART</h2>
+    </section>
+    
+
+    <section class="product center">
+        <div class="product_content">
+            <div class="product_card">
+                <img class="product_img" src="img/product3.jpg" alt="">
+                <div class="product_info">
+                    <div class="product_heading">
+                        <h2 class="product_title">MANGO PEOPLE T-SHIRT</h2>
+                        <button class="product_button">
+                            <img src="img/close.png" alt="close">
+                        </button>
+                    </div>
+                    <div class="product_values">
+                        <h3 class="product_item product_price">
+                            Price: <span class="product_dollar">$300</span> 
+                        </h3>
+                        <h3 class="product_item product_color">Color: Blue</h3>
+                        <h3 class="product_item product_size">Size: Xl</h3>
+                        <div class="product_store">
+                            <h3 class="product_item product_quantity">Quantity:</h3>
+                            <input type="number" class="product_count" value="2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product_card">
+                <img class="product_img" src="img/product2.jpg" alt="">
+                <div class="product_info">
+                    <div class="product_heading">
+                        <h2 class="product_title">MANGO PEOPLE T-SHIRT</h2>
+                        <button class="product_button">
+                            <img src="img/close.png" alt="close">
+                        </button>
+                    </div>
+                    <div class="product_values">
+                        <h3 class="product_item product_price">
+                            Price: <span class="product_dollar">$200</span> 
+                        </h3>
+                        <h3 class="product_item product_color">Color: Red</h3>
+                        <h3 class="product_item product_size">Size: Xl</h3>
+                        <div class="product_store">
+                            <h3 class="product_item product_quantity">Quantity:</h3>
+                            <input type="number" class="product_count" value="1">
+                        </div>
+                    </div>
+                </div>
+            </div>            
+
+            <div class="product_shopping">
+                <button class="product_shopping_button">CLEAR SHOPPING CART</button>
+                <button class="product_shopping_button">CONTINUE SHOPPING</button>
+            </div>
+
+        </div>
+
+        <div class="product_result">
+            <div class="product_address">
+                <h4 class="product_address_title">SHIPPING ADDRESS</h4>
+
+                <form class="product_address_form" action= "#" method="post">
+                    <input class="product_address_item" type="text" id="country" placeholder="Country">
+                    <input class="product_address_item" type="text" id="state" placeholder="State">
+                    <input class="product_address_item" type="text" id="zip" placeholder="Postcode / Zip">
+                    <input class="product_address_submit" type="submit" value="GET A QUOTE" />
+                </form>
+            </div>
+
+            <div class="product_total"> 
+               <div class="product_subtotal">
+                    <p class="product_subtotal_item">SUB TOTAL</p>
+                    <p class="product_subtotal_item">$800</p>
+               </div> 
+               <div class="product_grand_total">
+                    <p class="product_grand_item">GRAND TOTAL</p>
+                    <p class="product_grand_item product_grand_price">$800</p>
+               </div>
+               <div class="product_proceed">
+                <button class="product_checkout_button">PROCEED TO CHECKOUT</button>
+            </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="subscribe">
+        <div class="subscribe_info center">
+            <figure class="subscribe_user">
+                <div class="subscribe_user_photo">
+                    <img class="subscribe_user_img" src="img/user.png" alt="photo">
+                </div>
+                <div class="subscribe_user_info">
+                    <p class="subscribe_user_text">
+                        “Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum“                    
+                    </p>
+                </div>
+            </figure>
+            <section class="subscribe_detail">
+                <div class="subscribe_main">
+                    <h3 class="subscribe_title">SUBSCRIBE</h3> 
+                    <h4 class="subscribe_heading">FOR OUR NEWLETTER AND PROMOTION</h4>
+                </div>
+                <div class="subscribe_input">
+                    <input class="subscribe_email" type="email" placeholder="Enter Your Email">
+                    <input class="subscribe_submit" type="submit" value="Subscribe" />
+                </div>
+            </section>
+        </div>
+    </section>
+    
+     <footer class="footer">
+        <div class="footer_content center">
+            <div class="footer_left">
+                <p class="footer_text">© 2023  Brand  All Rights Reserved.</p>
+            </div>
+            <div class="footer_right">
+                <div class="footer_icon_view"> 
+                    <svg class="footer_icon facebook" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/></svg>
+                </div>
+                <div class="footer_icon_view"> 
+                    <svg class="footer_icon insta" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>  
+                </div>    
+                <div class="footer_icon_view">
+                    <svg class="footer_icon pinterest" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M204 6.5C101.4 6.5 0 74.9 0 185.6 0 256 39.6 296 63.6 296c9.9 0 15.6-27.6 15.6-35.4 0-9.3-23.7-29.1-23.7-67.8 0-80.4 61.2-137.4 140.4-137.4 68.1 0 118.5 38.7 118.5 109.8 0 53.1-21.3 152.7-90.3 152.7-24.9 0-46.2-18-46.2-43.8 0-37.8 26.4-74.4 26.4-113.4 0-66.2-93.9-54.2-93.9 25.8 0 16.8 2.1 35.4 9.6 50.7-13.8 59.4-42 147.9-42 209.1 0 18.9 2.7 37.5 4.5 56.4 3.4 3.8 1.7 3.4 6.9 1.5 50.4-69 48.6-82.5 71.4-172.8 12.3 23.4 44.1 36 69.3 36 106.2 0 153.9-103.5 153.9-196.8C384 71.3 298.2 6.5 204 6.5z"/></svg> 
+                </div>    
+                <div class="footer_icon_view">
+                    <svg class="footer_icon twitter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>  
+                </div>          
+            </div>            
+        </div>
+     </footer>
+
+    </div>
+    </body>
+</html>
